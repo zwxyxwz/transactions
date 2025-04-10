@@ -1,6 +1,6 @@
 针对不同的场景有不同的解决方案，常见的方法有：
 
-1. [阻塞重试(Blocking Retry)]()
+1. [阻塞重试(Blocking Retry)](https://github.com/zwxyxwz/transactions/tree/main/retry)
 2. [二阶段和三阶段提交(Two-Phase Commit (2PC) and Three-Phase Commit (3PC))]()
 3. [基于后台队列的异步处理(Using Queues to Process Asynchronously in the Background)]()
 4. [TCC补偿(TCC Compensation Matters)]()
