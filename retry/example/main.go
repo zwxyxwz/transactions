@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xneogo/transactions/retry"
+	"github.com/zwxyxwz/transactions/retry"
 )
 
 func main() {
