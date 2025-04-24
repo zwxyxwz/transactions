@@ -1,4 +1,4 @@
-module github.com/xneogo/transactions
+module github.com/zwxyxwz/transactions
 
 go 1.24.1
 
