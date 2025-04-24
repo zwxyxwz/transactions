@@ -136,7 +136,7 @@ func (q *MemoryQueue) Pop(ctx context.Context) (*Task, error) {
 			close(waitCh)
 		}()
 
-		q.mutex.Unlock()
+		// q.mutex.Unlock()
 		select {
 		case <-waitCh:
 			// 重新获取锁
