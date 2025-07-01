@@ -1,9 +1,9 @@
 针对不同的场景有不同的解决方案，常见的方法有：
 
-1. [阻塞重试(Blocking Retry)](https://github.com/zwxyxwz/transactions/tree/main/retry)
+1. [阻塞重试(Blocking Retry)](https://github.com/zwxyxwz/transactions/blob/main/retry/blocking-retry.md)
 2. [二阶段和三阶段提交(Two-Phase Commit (2PC) and Three-Phase Commit (3PC))]()
-3. [基于后台队列的异步处理(Using Queues to Process Asynchronously in the Background)]()
-4. [TCC补偿(TCC Compensation Matters)]()
+3. [基于后台队列的异步处理(Using Queues to Process Asynchronously in the Background)](https://github.com/zwxyxwz/transactions/blob/main/async-queue/queues-to-process-async-in-background.md)
+4. [TCC补偿(TCC Compensation Matters)](https://github.com/zwxyxwz/transactions/blob/main/tcc/try-confirm-cancel.md)
 5. [本地消息表(异步保证)/发件箱模式(Local Message Table (Asynchronously Ensured)/Outbox Pattern)]()
 6. [MQ事务(MQ Transaction)]()
 7. [Saga模式(Saga Pattern)]()
@@ -18,10 +18,16 @@
 16. [拜占庭容错(Byzantine Fault Tolerance, BFT)]()
 17. [分布式锁(Distributed Locking)]()
 18. [分片(Sharding)]()
-19. [多版本并发控制(Multi-Version Concurrency Control, MVCC)]()
-20. [分布式快照(Distributed Snapshots)]()
-21. [主从复制(Leader-Follower Replication)]()
+19. [多版本并发控制(Multi-Version Concurrency Control, MVCC)](https://github.com/zwxyxwz/transactions/blob/main/mvcc/mvcc.md)
+20. [分布式快照(Distributed Snapshots)](https://github.com/zwxyxwz/transactions/blob/main/distributed-snapshots/distributed-snapshots.md)
+21. [主从复制(Leader-Follower Replication)](https://github.com/zwxyxwz/transactions/blob/main/lfr/leader-follower-replication.md)
 
 ### 参考
 
 - [Exploring Solutions for Distributed Transactions - 1](https://medium.com/thedevproject/exploring-solutions-for-distributed-transactions-1-15853eebc114)
+- [Exploring Solutions for Distributed Transactions - 2]()
+- [Exploring Solutions for Distributed Transactions - 3]()
+- [Exploring Solutions for Distributed Transactions - 4](https://medium.com/geekculture/exploring-solutions-for-distributed-transactions-4-6d73f27f1230)
+- [Exploring Solutions for Distributed Transactions - 5](https://experiencestack.co/exploring-solutions-for-distributed-transactions-5-a053c86a941e)
+- [Exploring Solutions for Distributed Transactions - 6](https://experiencestack.co/exploring-solutions-for-distributed-transactions-6-6530ba06f78e)
+- [Exploring Solutions for Distributed Transactions - 7](https://medium.com/thedevproject/exploring-solutions-for-distributed-transactions-7-e00f23e3c206)
